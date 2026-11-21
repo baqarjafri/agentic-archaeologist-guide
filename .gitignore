@@ -1,0 +1,47 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+server/models/
+
+# Node and build output
+node_modules/
+dist/
+build/
+
+# Secrets: real values live only in local .env files and in Railway variables
+.env*
+!.env.example
+
+# Large raw media: source shoots and video stay out of git (pack images are written by the builder and committed)
+*.mp4
+*.mov
+*.m4v
+*.avi
+*.mkv
+*.webm
+*.wav
+*.flac
+*.aif
+*.aiff
+*.tif
+*.tiff
+*.psd
+*.heic
+*.raw
+*.cr2
+*.cr3
+*.nef
+*.arw
+*.dng
+
+# Local tools and OS
+.DS_Store
+Thumbs.db
+.playwright-mcp/
+.gstack/
+.archive/
+*.local.*
+CLAUDE.md

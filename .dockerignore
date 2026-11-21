@@ -1,0 +1,11 @@
+**/.venv
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+web/node_modules
+web/dist
+server/models
+server/.env
+.git
+design
+.playwright-mcp

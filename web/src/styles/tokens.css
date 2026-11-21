@@ -1,0 +1,32 @@
+:root {
+  --glass: rgba(14, 14, 16, 0.45);
+  --glass-fx: blur(18px) saturate(140%) brightness(0.45);
+  --glass-solid: rgba(14, 14, 16, 0.86);
+  --hair: rgba(255, 255, 255, 0.14);
+  --ink: #f6f3ec;
+  --ink-2: rgba(246, 243, 236, 0.72);
+  --ink-3: rgba(246, 243, 236, 0.42);
+  --gilt: #d4b06a;
+  --gilt-soft: rgba(212, 176, 106, 0.18);
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Instrument Sans", "Segoe UI", system-ui, sans-serif;
+  --u: 8px;
+  --edge: 16px;
+  --r-card: 20px;
+  --r-chip: 999px;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --t1: 180ms;
+  --t2: 220ms;
+  --t3: 260ms;
+  --cap: 20px;
+  --cap-lh: 28px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --t1: 0ms;
+    --t2: 0ms;
+    --t3: 0ms;
+  }
+}

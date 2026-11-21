@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "The Agentic Archaeologist: an open-source AI guide that remembers its visitor"
+type: software
+authors:
+  - family-names: Jafri
+    given-names: Baqar
+    affiliation: University of Stirling
+version: 0.1.0
+date-released: 2026-11-21
+license: Apache-2.0
+repository-code: "https://github.com/baqarjafri/agentic-archaeologist-guide"
+keywords:
+  - museums
+  - cultural heritage
+  - archaeology
+  - conversational agent
+  - grounded generation
